@@ -1,0 +1,22 @@
+.custom-slider{
+  height: 360px!important;
+  .carousel-control-prev,
+  .carousel-control-next{
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+  }
+  .carousel-inner{
+    height: 100%;
+    .carousel-item{
+      height: 100%;
+      .carousel-img-container{
+        height: 100%;
+      }
+      img{
+        max-width:100% !important;
+        max-height:100% !important;
+        width: auto !important;
+      }
+    }
+  }
+}
